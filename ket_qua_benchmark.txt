@@ -1,0 +1,56 @@
+Strategy: RecursiveChunker | chunks: 14 | store: 14
+
+[Q1] Cong ky tuc xa dong luc may gio?  filter={'audience': 'student'}  gold=ktx-noi-quy-sinh-vien -> 0pts (doc-hit-only@1 (snippet missing -> inflated if scored by doc))
+  1. score=0.097 doc=ktx-noi-quy-sinh-vien
+     - Moi phong cu nguoi truc nhat tuan theo lich phan cong, truc nhat gom quet don va do rac dung noi quy dinh. -...
+  2. score=0.090 doc=ktx-dang-ky-phong-sinh-vien
+     - Phong 8 sinh vien: loai phong pho bien nhat, uu tien sinh vien nam nhat. - Phong 4 sinh vien: so luong gioi ...
+  3. score=0.042 doc=ktx-dang-ky-phong-sinh-vien
+     # Dang ky phong o ky tuc xa cho sinh vien ## Dieu kien dang ky Sinh vien dang theo hoc tai cac truong dai hoc ...
+
+[Q2] Phong 4 sinh vien co muc phi bao nhieu mot thang?  filter=None  gold=ktx-muc-phi-sinh-vien -> 0pts (doc-hit-only@1 (snippet missing -> inflated if scored by doc))
+  1. score=0.243 doc=ktx-muc-phi-sinh-vien
+     Tien phong dong theo hoc ky, 5 thang mot lan, qua chuyen khoan ngan hang theo huong dan tren cong dang ky. Han...
+  2. score=0.189 doc=ktx-quy-dinh-can-bo-truc
+     # Quy dinh truc va quan ly doi voi can bo ky tuc xa ## Che do truc Can bo truc truc 24 tren 24 tai phong truc ...
+  3. score=0.129 doc=ktx-thu-tuc-giay-to
+     ## Thu tuc tra phong Truoc khi tra phong 7 ngay, sinh vien nop don tra phong cho truong toa nha. Ngay tra phon...
+
+[Q3] Ho so nhan phong ky tuc xa gom nhung giay to gi?  filter=None  gold=ktx-thu-tuc-giay-to -> 0pts (miss)
+  1. score=0.209 doc=ktx-muc-phi-sinh-vien
+     # Muc phi phong o ky tuc xa cho sinh vien ## Bang phi theo loai phong - Phong 8 sinh vien: 250000 dong mot sin...
+  2. score=0.124 doc=ktx-dang-ky-phong-sinh-vien
+     # Dang ky phong o ky tuc xa cho sinh vien ## Dieu kien dang ky Sinh vien dang theo hoc tai cac truong dai hoc ...
+  3. score=0.121 doc=ktx-noi-quy-sinh-vien
+     - Moi phong cu nguoi truc nhat tuan theo lich phan cong, truc nhat gom quet don va do rac dung noi quy dinh. -...
+
+[Q4] Quy trinh dang ky phong o gom may buoc va khi nao co ket qua xet duyet?  filter=None  gold=ktx-dang-ky-phong-sinh-vien -> 0pts (miss)
+  1. score=0.065 doc=ktx-gioi-thieu-chung
+     # Gioi thieu he thong ky tuc xa ## Tong quan Ky tuc xa Dai hoc Quoc gia Thanh pho Ho Chi Minh la he thong ky t...
+  2. score=0.037 doc=ktx-gioi-thieu-chung
+     - Trang thong tin chinh: cong bo tin tuc, thong bao va quy che. - Cong dang ky phong o sinh vien: tiep nhan da...
+  3. score=0.006 doc=ktx-noi-quy-sinh-vien
+     # Noi quy ky tuc xa cho sinh vien ## Gio ra vao cong Cong chinh ky tuc xa dong luc 22 gio 30 phut moi ngay doi...
+
+[Q5] Sinh vien vi pham noi quy lan thu ba bi xu ly nhu the nao?  filter=None  gold=ktx-noi-quy-sinh-vien -> 0pts (miss)
+  1. score=0.182 doc=ktx-thu-tuc-giay-to
+     # Thu tuc giay to nhan va tra phong ky tuc xa ## Ho so nhan phong Ho so nhan phong gom 4 loai giay to: can cuo...
+  2. score=0.182 doc=ktx-quy-dinh-can-bo-truc
+     # Quy dinh truc va quan ly doi voi can bo ky tuc xa ## Che do truc Can bo truc truc 24 tren 24 tai phong truc ...
+  3. score=0.153 doc=ktx-dang-ky-phong-sinh-vien
+     Buoc 1: Truy cap cong dang ky phong o sinh vien va tao tai khoan bang ma so sinh vien. Buoc 2: Dien don dang k...
+
+TOTAL: 0/10
+
+--- A/B Q1 without filter ---
+  1. score=0.154 doc=ktx-gioi-thieu-chung
+  2. score=0.152 doc=ktx-gioi-thieu-chung
+  3. score=0.097 doc=ktx-noi-quy-sinh-vien
+
+=== SANITY CHECK with semantic (bag-of-words) embedder — same code, same corpus ===
+Q1: 2pts (content-hit@1) top1=ktx-noi-quy-sinh-vien score=0.432
+Q2: 2pts (content-hit@1) top1=ktx-muc-phi-sinh-vien score=0.661
+Q3: 2pts (content-hit@1) top1=ktx-thu-tuc-giay-to score=0.576
+Q4: 2pts (content-hit@1) top1=ktx-dang-ky-phong-sinh-vien score=0.507
+Q5: 2pts (content-hit@1) top1=ktx-noi-quy-sinh-vien score=0.451
+TOTAL: 10/10
