@@ -1,0 +1,733 @@
+{
+ "model": "deepseek-flash",
+ "triples": [
+  {
+   "head": "ky tuc xa",
+   "relation": "chao don",
+   "tail": "hon 10000 sinh vien moi nhap truong",
+   "source_doc": "ktx-bang-tin-tho",
+   "chunk": "# Bang tin tong hop cong ky tuc xa Trang chu | Gioi thieu | Tin tuc | Thong bao | Tuyen sinh | Lien he | Chuyen den noi dung ## Tin moi nhat - Chuc mung nam hoc moi: ky tuc xa chao don hon 10000 sinh vien moi nhap truong.\n- Giai bong da sinh vien mo rong: dang ky doi bong tai van phong khu A truoc ngay 30.\n- Lich cat dien bao tri: toa nha B3 cat dien tu 8 gio den 11 gio ngay thu bay.\n- Tuyen cong tac vien truyen thong: nhan don den het thang. ## Thong bao dich vu"
+  },
+  {
+   "head": "Giai bong da sinh vien mo rong",
+   "relation": "dang ky doi bong tai",
+   "tail": "van phong khu A truoc ngay 30",
+   "source_doc": "ktx-bang-tin-tho",
+   "chunk": "# Bang tin tong hop cong ky tuc xa Trang chu | Gioi thieu | Tin tuc | Thong bao | Tuyen sinh | Lien he | Chuyen den noi dung ## Tin moi nhat - Chuc mung nam hoc moi: ky tuc xa chao don hon 10000 sinh vien moi nhap truong.\n- Giai bong da sinh vien mo rong: dang ky doi bong tai van phong khu A truoc ngay 30.\n- Lich cat dien bao tri: toa nha B3 cat dien tu 8 gio den 11 gio ngay thu bay.\n- Tuyen cong tac vien truyen thong: nhan don den het thang. ## Thong bao dich vu"
+  },
+  {
+   "head": "toa nha B3",
+   "relation": "cat dien tu",
+   "tail": "8 gio den 11 gio ngay thu bay",
+   "source_doc": "ktx-bang-tin-tho",
+   "chunk": "# Bang tin tong hop cong ky tuc xa Trang chu | Gioi thieu | Tin tuc | Thong bao | Tuyen sinh | Lien he | Chuyen den noi dung ## Tin moi nhat - Chuc mung nam hoc moi: ky tuc xa chao don hon 10000 sinh vien moi nhap truong.\n- Giai bong da sinh vien mo rong: dang ky doi bong tai van phong khu A truoc ngay 30.\n- Lich cat dien bao tri: toa nha B3 cat dien tu 8 gio den 11 gio ngay thu bay.\n- Tuyen cong tac vien truyen thong: nhan don den het thang. ## Thong bao dich vu"
+  },
+  {
+   "head": "Tuyen cong tac vien truyen thong",
+   "relation": "nhan don den",
+   "tail": "het thang",
+   "source_doc": "ktx-bang-tin-tho",
+   "chunk": "# Bang tin tong hop cong ky tuc xa Trang chu | Gioi thieu | Tin tuc | Thong bao | Tuyen sinh | Lien he | Chuyen den noi dung ## Tin moi nhat - Chuc mung nam hoc moi: ky tuc xa chao don hon 10000 sinh vien moi nhap truong.\n- Giai bong da sinh vien mo rong: dang ky doi bong tai van phong khu A truoc ngay 30.\n- Lich cat dien bao tri: toa nha B3 cat dien tu 8 gio den 11 gio ngay thu bay.\n- Tuyen cong tac vien truyen thong: nhan don den het thang. ## Thong bao dich vu"
+  },
+  {
+   "head": "Dich vu giat ui o khu B",
+   "relation": "mo cua den",
+   "tail": "20 gio cac ngay trong tuan",
+   "source_doc": "ktx-bang-tin-tho",
+   "chunk": "Dich vu giat ui o khu B mo cua den 20 gio cac ngay trong tuan, gia 15000 dong mot luot giat 5 kg. Sinh vien lay do truoc 20 gio 30. Xem them | Tin cu hon | Dang nhap | Tim kiem | Ban do | Chinh sach bao mat"
+  },
+  {
+   "head": "Dich vu giat ui o khu B",
+   "relation": "co gia",
+   "tail": "15000 dong mot luot giat 5 kg",
+   "source_doc": "ktx-bang-tin-tho",
+   "chunk": "Dich vu giat ui o khu B mo cua den 20 gio cac ngay trong tuan, gia 15000 dong mot luot giat 5 kg. Sinh vien lay do truoc 20 gio 30. Xem them | Tin cu hon | Dang nhap | Tim kiem | Ban do | Chinh sach bao mat"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "lay do truoc",
+   "tail": "20 gio 30",
+   "source_doc": "ktx-bang-tin-tho",
+   "chunk": "Dich vu giat ui o khu B mo cua den 20 gio cac ngay trong tuan, gia 15000 dong mot luot giat 5 kg. Sinh vien lay do truoc 20 gio 30. Xem them | Tin cu hon | Dang nhap | Tim kiem | Ban do | Chinh sach bao mat"
+  },
+  {
+   "head": "Bieu phi phong o cu",
+   "relation": "ap dung tu",
+   "tail": "thang 8 nam 2023",
+   "source_doc": "ktx-bieu-phi-cu-2023",
+   "chunk": "# Bieu phi phong o cu ap dung tu 2023\n\n## Luu y hieu luc\n\nBieu phi nay ap dung tu thang 8 nam 2023 va da het hieu luc. Sinh vien tra cuu bieu phi hien hanh tren cong thong tin cua ky tuc xa.\n\n## Bang phi cu\n\n- Phong 8 sinh vien: 200000 dong mot sinh vien mot thang.\n- Phong 4 sinh vien: 350000 dong mot sinh vien mot thang.\n- Phong 2 sinh vien: 650000 dong mot sinh vien mot thang.\n\n## Tien dat coc cu\n\nMuc dat coc theo bieu cu la 300000 dong."
+  },
+  {
+   "head": "Phong 8 sinh vien",
+   "relation": "co phi",
+   "tail": "200000 dong mot sinh vien mot thang",
+   "source_doc": "ktx-bieu-phi-cu-2023",
+   "chunk": "# Bieu phi phong o cu ap dung tu 2023\n\n## Luu y hieu luc\n\nBieu phi nay ap dung tu thang 8 nam 2023 va da het hieu luc. Sinh vien tra cuu bieu phi hien hanh tren cong thong tin cua ky tuc xa.\n\n## Bang phi cu\n\n- Phong 8 sinh vien: 200000 dong mot sinh vien mot thang.\n- Phong 4 sinh vien: 350000 dong mot sinh vien mot thang.\n- Phong 2 sinh vien: 650000 dong mot sinh vien mot thang.\n\n## Tien dat coc cu\n\nMuc dat coc theo bieu cu la 300000 dong."
+  },
+  {
+   "head": "Phong 4 sinh vien",
+   "relation": "co phi",
+   "tail": "350000 dong mot sinh vien mot thang",
+   "source_doc": "ktx-bieu-phi-cu-2023",
+   "chunk": "# Bieu phi phong o cu ap dung tu 2023\n\n## Luu y hieu luc\n\nBieu phi nay ap dung tu thang 8 nam 2023 va da het hieu luc. Sinh vien tra cuu bieu phi hien hanh tren cong thong tin cua ky tuc xa.\n\n## Bang phi cu\n\n- Phong 8 sinh vien: 200000 dong mot sinh vien mot thang.\n- Phong 4 sinh vien: 350000 dong mot sinh vien mot thang.\n- Phong 2 sinh vien: 650000 dong mot sinh vien mot thang.\n\n## Tien dat coc cu\n\nMuc dat coc theo bieu cu la 300000 dong."
+  },
+  {
+   "head": "Phong 2 sinh vien",
+   "relation": "co phi",
+   "tail": "650000 dong mot sinh vien mot thang",
+   "source_doc": "ktx-bieu-phi-cu-2023",
+   "chunk": "# Bieu phi phong o cu ap dung tu 2023\n\n## Luu y hieu luc\n\nBieu phi nay ap dung tu thang 8 nam 2023 va da het hieu luc. Sinh vien tra cuu bieu phi hien hanh tren cong thong tin cua ky tuc xa.\n\n## Bang phi cu\n\n- Phong 8 sinh vien: 200000 dong mot sinh vien mot thang.\n- Phong 4 sinh vien: 350000 dong mot sinh vien mot thang.\n- Phong 2 sinh vien: 650000 dong mot sinh vien mot thang.\n\n## Tien dat coc cu\n\nMuc dat coc theo bieu cu la 300000 dong."
+  },
+  {
+   "head": "Muc dat coc theo bieu cu",
+   "relation": "la",
+   "tail": "300000 dong",
+   "source_doc": "ktx-bieu-phi-cu-2023",
+   "chunk": "# Bieu phi phong o cu ap dung tu 2023\n\n## Luu y hieu luc\n\nBieu phi nay ap dung tu thang 8 nam 2023 va da het hieu luc. Sinh vien tra cuu bieu phi hien hanh tren cong thong tin cua ky tuc xa.\n\n## Bang phi cu\n\n- Phong 8 sinh vien: 200000 dong mot sinh vien mot thang.\n- Phong 4 sinh vien: 350000 dong mot sinh vien mot thang.\n- Phong 2 sinh vien: 650000 dong mot sinh vien mot thang.\n\n## Tien dat coc cu\n\nMuc dat coc theo bieu cu la 300000 dong."
+  },
+  {
+   "head": "Sinh vien dang theo hoc tai cac truong dai hoc thanh vien",
+   "relation": "duoc dang ky",
+   "tail": "phong o ky tuc xa",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "# Dang ky phong o ky tuc xa cho sinh vien ## Dieu kien dang ky Sinh vien dang theo hoc tai cac truong dai hoc thanh vien duoc dang ky phong o ky tuc xa. Sinh vien nam nhat va sinh vien co hoan canh kho khan duoc uu tien xet duyet. ## Quy trinh dang ky"
+  },
+  {
+   "head": "Sinh vien nam nhat",
+   "relation": "duoc uu tien",
+   "tail": "xet duyet",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "# Dang ky phong o ky tuc xa cho sinh vien ## Dieu kien dang ky Sinh vien dang theo hoc tai cac truong dai hoc thanh vien duoc dang ky phong o ky tuc xa. Sinh vien nam nhat va sinh vien co hoan canh kho khan duoc uu tien xet duyet. ## Quy trinh dang ky"
+  },
+  {
+   "head": "Sinh vien co hoan canh kho khan",
+   "relation": "duoc uu tien",
+   "tail": "xet duyet",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "# Dang ky phong o ky tuc xa cho sinh vien ## Dieu kien dang ky Sinh vien dang theo hoc tai cac truong dai hoc thanh vien duoc dang ky phong o ky tuc xa. Sinh vien nam nhat va sinh vien co hoan canh kho khan duoc uu tien xet duyet. ## Quy trinh dang ky"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "truy cap",
+   "tail": "cong dang ky phong o sinh vien",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "Buoc 1: Truy cap cong dang ky phong o sinh vien va tao tai khoan bang ma so sinh vien.\nBuoc 2: Dien don dang ky truc tuyen, chon loai phong mong muon.\nBuoc 3: Nhan ket qua xet duyet qua email trong vong 7 ngay lam viec.\nBuoc 4: Den nhan phong trong vong 3 ngay ke tu ngay co ket qua, mang theo can cuoc cong dan va giay bao nhap hoc. ## Cac loai phong"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "tao tai khoan bang",
+   "tail": "ma so sinh vien",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "Buoc 1: Truy cap cong dang ky phong o sinh vien va tao tai khoan bang ma so sinh vien.\nBuoc 2: Dien don dang ky truc tuyen, chon loai phong mong muon.\nBuoc 3: Nhan ket qua xet duyet qua email trong vong 7 ngay lam viec.\nBuoc 4: Den nhan phong trong vong 3 ngay ke tu ngay co ket qua, mang theo can cuoc cong dan va giay bao nhap hoc. ## Cac loai phong"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "dien",
+   "tail": "don dang ky truc tuyen",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "Buoc 1: Truy cap cong dang ky phong o sinh vien va tao tai khoan bang ma so sinh vien.\nBuoc 2: Dien don dang ky truc tuyen, chon loai phong mong muon.\nBuoc 3: Nhan ket qua xet duyet qua email trong vong 7 ngay lam viec.\nBuoc 4: Den nhan phong trong vong 3 ngay ke tu ngay co ket qua, mang theo can cuoc cong dan va giay bao nhap hoc. ## Cac loai phong"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "chon",
+   "tail": "loai phong mong muon",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "Buoc 1: Truy cap cong dang ky phong o sinh vien va tao tai khoan bang ma so sinh vien.\nBuoc 2: Dien don dang ky truc tuyen, chon loai phong mong muon.\nBuoc 3: Nhan ket qua xet duyet qua email trong vong 7 ngay lam viec.\nBuoc 4: Den nhan phong trong vong 3 ngay ke tu ngay co ket qua, mang theo can cuoc cong dan va giay bao nhap hoc. ## Cac loai phong"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "nhan ket qua xet duyet qua",
+   "tail": "email",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "Buoc 1: Truy cap cong dang ky phong o sinh vien va tao tai khoan bang ma so sinh vien.\nBuoc 2: Dien don dang ky truc tuyen, chon loai phong mong muon.\nBuoc 3: Nhan ket qua xet duyet qua email trong vong 7 ngay lam viec.\nBuoc 4: Den nhan phong trong vong 3 ngay ke tu ngay co ket qua, mang theo can cuoc cong dan va giay bao nhap hoc. ## Cac loai phong"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "nhan ket qua xet duyet trong vong",
+   "tail": "7 ngay lam viec",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "Buoc 1: Truy cap cong dang ky phong o sinh vien va tao tai khoan bang ma so sinh vien.\nBuoc 2: Dien don dang ky truc tuyen, chon loai phong mong muon.\nBuoc 3: Nhan ket qua xet duyet qua email trong vong 7 ngay lam viec.\nBuoc 4: Den nhan phong trong vong 3 ngay ke tu ngay co ket qua, mang theo can cuoc cong dan va giay bao nhap hoc. ## Cac loai phong"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "den nhan phong trong vong",
+   "tail": "3 ngay ke tu ngay co ket qua",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "Buoc 1: Truy cap cong dang ky phong o sinh vien va tao tai khoan bang ma so sinh vien.\nBuoc 2: Dien don dang ky truc tuyen, chon loai phong mong muon.\nBuoc 3: Nhan ket qua xet duyet qua email trong vong 7 ngay lam viec.\nBuoc 4: Den nhan phong trong vong 3 ngay ke tu ngay co ket qua, mang theo can cuoc cong dan va giay bao nhap hoc. ## Cac loai phong"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "mang theo",
+   "tail": "can cuoc cong dan va giay bao nhap hoc",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "Buoc 1: Truy cap cong dang ky phong o sinh vien va tao tai khoan bang ma so sinh vien.\nBuoc 2: Dien don dang ky truc tuyen, chon loai phong mong muon.\nBuoc 3: Nhan ket qua xet duyet qua email trong vong 7 ngay lam viec.\nBuoc 4: Den nhan phong trong vong 3 ngay ke tu ngay co ket qua, mang theo can cuoc cong dan va giay bao nhap hoc. ## Cac loai phong"
+  },
+  {
+   "head": "Phong 8 sinh vien",
+   "relation": "la",
+   "tail": "loai phong pho bien nhat",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "- Phong 8 sinh vien: loai phong pho bien nhat, uu tien sinh vien nam nhat.\n- Phong 4 sinh vien: so luong gioi han, xet theo thu tu dang ky.\n- Phong 2 sinh vien: danh cho sinh vien nam cuoi va hoc vien cao hoc. ## Thoi han Dang ky phong o cho hoc ky moi mo tu ngay 1 den ngay 20 cua thang truoc khi hoc ky bat dau. Qua thoi han nay, sinh vien phai cho dot bo sung."
+  },
+  {
+   "head": "Phong 8 sinh vien",
+   "relation": "uu tien",
+   "tail": "sinh vien nam nhat",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "- Phong 8 sinh vien: loai phong pho bien nhat, uu tien sinh vien nam nhat.\n- Phong 4 sinh vien: so luong gioi han, xet theo thu tu dang ky.\n- Phong 2 sinh vien: danh cho sinh vien nam cuoi va hoc vien cao hoc. ## Thoi han Dang ky phong o cho hoc ky moi mo tu ngay 1 den ngay 20 cua thang truoc khi hoc ky bat dau. Qua thoi han nay, sinh vien phai cho dot bo sung."
+  },
+  {
+   "head": "Phong 4 sinh vien",
+   "relation": "co",
+   "tail": "so luong gioi han",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "- Phong 8 sinh vien: loai phong pho bien nhat, uu tien sinh vien nam nhat.\n- Phong 4 sinh vien: so luong gioi han, xet theo thu tu dang ky.\n- Phong 2 sinh vien: danh cho sinh vien nam cuoi va hoc vien cao hoc. ## Thoi han Dang ky phong o cho hoc ky moi mo tu ngay 1 den ngay 20 cua thang truoc khi hoc ky bat dau. Qua thoi han nay, sinh vien phai cho dot bo sung."
+  },
+  {
+   "head": "Phong 4 sinh vien",
+   "relation": "xet theo",
+   "tail": "thu tu dang ky",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "- Phong 8 sinh vien: loai phong pho bien nhat, uu tien sinh vien nam nhat.\n- Phong 4 sinh vien: so luong gioi han, xet theo thu tu dang ky.\n- Phong 2 sinh vien: danh cho sinh vien nam cuoi va hoc vien cao hoc. ## Thoi han Dang ky phong o cho hoc ky moi mo tu ngay 1 den ngay 20 cua thang truoc khi hoc ky bat dau. Qua thoi han nay, sinh vien phai cho dot bo sung."
+  },
+  {
+   "head": "Phong 2 sinh vien",
+   "relation": "danh cho",
+   "tail": "sinh vien nam cuoi va hoc vien cao hoc",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "- Phong 8 sinh vien: loai phong pho bien nhat, uu tien sinh vien nam nhat.\n- Phong 4 sinh vien: so luong gioi han, xet theo thu tu dang ky.\n- Phong 2 sinh vien: danh cho sinh vien nam cuoi va hoc vien cao hoc. ## Thoi han Dang ky phong o cho hoc ky moi mo tu ngay 1 den ngay 20 cua thang truoc khi hoc ky bat dau. Qua thoi han nay, sinh vien phai cho dot bo sung."
+  },
+  {
+   "head": "Thoi han Dang ky phong o cho hoc ky moi",
+   "relation": "mo tu",
+   "tail": "ngay 1 den ngay 20 cua thang truoc khi hoc ky bat dau",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "- Phong 8 sinh vien: loai phong pho bien nhat, uu tien sinh vien nam nhat.\n- Phong 4 sinh vien: so luong gioi han, xet theo thu tu dang ky.\n- Phong 2 sinh vien: danh cho sinh vien nam cuoi va hoc vien cao hoc. ## Thoi han Dang ky phong o cho hoc ky moi mo tu ngay 1 den ngay 20 cua thang truoc khi hoc ky bat dau. Qua thoi han nay, sinh vien phai cho dot bo sung."
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "phai cho",
+   "tail": "dot bo sung",
+   "source_doc": "ktx-dang-ky-phong-sinh-vien",
+   "chunk": "- Phong 8 sinh vien: loai phong pho bien nhat, uu tien sinh vien nam nhat.\n- Phong 4 sinh vien: so luong gioi han, xet theo thu tu dang ky.\n- Phong 2 sinh vien: danh cho sinh vien nam cuoi va hoc vien cao hoc. ## Thoi han Dang ky phong o cho hoc ky moi mo tu ngay 1 den ngay 20 cua thang truoc khi hoc ky bat dau. Qua thoi han nay, sinh vien phai cho dot bo sung."
+  },
+  {
+   "head": "Ky tuc xa Dai hoc Quoc gia Thanh pho Ho Chi Minh",
+   "relation": "la",
+   "tail": "he thong ky tuc xa lon nhat Viet Nam",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "# Gioi thieu he thong ky tuc xa ## Tong quan Ky tuc xa Dai hoc Quoc gia Thanh pho Ho Chi Minh la he thong ky tuc xa lon nhat Viet Nam, gom hai khu A va B tai khu do thi Dai hoc Quoc gia, phuong Dong Hoa, thanh pho Di An, tinh Binh Duong. He thong phuc vu chu yeu sinh vien cac truong dai hoc thanh vien Dai hoc Quoc gia. ## Cac cong thong tin"
+  },
+  {
+   "head": "Ky tuc xa Dai hoc Quoc gia Thanh pho Ho Chi Minh",
+   "relation": "gom",
+   "tail": "hai khu A va B",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "# Gioi thieu he thong ky tuc xa ## Tong quan Ky tuc xa Dai hoc Quoc gia Thanh pho Ho Chi Minh la he thong ky tuc xa lon nhat Viet Nam, gom hai khu A va B tai khu do thi Dai hoc Quoc gia, phuong Dong Hoa, thanh pho Di An, tinh Binh Duong. He thong phuc vu chu yeu sinh vien cac truong dai hoc thanh vien Dai hoc Quoc gia. ## Cac cong thong tin"
+  },
+  {
+   "head": "hai khu A va B",
+   "relation": "tai",
+   "tail": "khu do thi Dai hoc Quoc gia, phuong Dong Hoa, thanh pho Di An, tinh Binh Duong",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "# Gioi thieu he thong ky tuc xa ## Tong quan Ky tuc xa Dai hoc Quoc gia Thanh pho Ho Chi Minh la he thong ky tuc xa lon nhat Viet Nam, gom hai khu A va B tai khu do thi Dai hoc Quoc gia, phuong Dong Hoa, thanh pho Di An, tinh Binh Duong. He thong phuc vu chu yeu sinh vien cac truong dai hoc thanh vien Dai hoc Quoc gia. ## Cac cong thong tin"
+  },
+  {
+   "head": "He thong",
+   "relation": "phuc vu chu yeu",
+   "tail": "sinh vien cac truong dai hoc thanh vien Dai hoc Quoc gia",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "# Gioi thieu he thong ky tuc xa ## Tong quan Ky tuc xa Dai hoc Quoc gia Thanh pho Ho Chi Minh la he thong ky tuc xa lon nhat Viet Nam, gom hai khu A va B tai khu do thi Dai hoc Quoc gia, phuong Dong Hoa, thanh pho Di An, tinh Binh Duong. He thong phuc vu chu yeu sinh vien cac truong dai hoc thanh vien Dai hoc Quoc gia. ## Cac cong thong tin"
+  },
+  {
+   "head": "Trang thong tin chinh",
+   "relation": "cong bo",
+   "tail": "tin tuc, thong bao va quy che",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "- Trang thong tin chinh: cong bo tin tuc, thong bao va quy che.\n- Cong dang ky phong o sinh vien: tiep nhan dang ky phong o truc tuyen.\n- Cong huong dan thu tuc, bieu mau, quy che: tra cuu huong dan va tai bieu mau. ## Ky tuc xa Bach Khoa Ha Noi Ky tuc xa Bach Khoa Ha Noi truc thuoc Dai hoc Bach Khoa Ha Noi, phuc vu sinh vien noi tru tai Ha Noi. Thong tin gioi thieu, so do toa nha va dich vu duoc cong bo tren trang thong tin cua ky tuc xa. ## Doi tuong phuc vu"
+  },
+  {
+   "head": "Cong dang ky phong o sinh vien",
+   "relation": "tiep nhan",
+   "tail": "dang ky phong o truc tuyen",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "- Trang thong tin chinh: cong bo tin tuc, thong bao va quy che.\n- Cong dang ky phong o sinh vien: tiep nhan dang ky phong o truc tuyen.\n- Cong huong dan thu tuc, bieu mau, quy che: tra cuu huong dan va tai bieu mau. ## Ky tuc xa Bach Khoa Ha Noi Ky tuc xa Bach Khoa Ha Noi truc thuoc Dai hoc Bach Khoa Ha Noi, phuc vu sinh vien noi tru tai Ha Noi. Thong tin gioi thieu, so do toa nha va dich vu duoc cong bo tren trang thong tin cua ky tuc xa. ## Doi tuong phuc vu"
+  },
+  {
+   "head": "Cong huong dan thu tuc, bieu mau, quy che",
+   "relation": "tra cuu",
+   "tail": "huong dan",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "- Trang thong tin chinh: cong bo tin tuc, thong bao va quy che.\n- Cong dang ky phong o sinh vien: tiep nhan dang ky phong o truc tuyen.\n- Cong huong dan thu tuc, bieu mau, quy che: tra cuu huong dan va tai bieu mau. ## Ky tuc xa Bach Khoa Ha Noi Ky tuc xa Bach Khoa Ha Noi truc thuoc Dai hoc Bach Khoa Ha Noi, phuc vu sinh vien noi tru tai Ha Noi. Thong tin gioi thieu, so do toa nha va dich vu duoc cong bo tren trang thong tin cua ky tuc xa. ## Doi tuong phuc vu"
+  },
+  {
+   "head": "Cong huong dan thu tuc, bieu mau, quy che",
+   "relation": "tai",
+   "tail": "bieu mau",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "- Trang thong tin chinh: cong bo tin tuc, thong bao va quy che.\n- Cong dang ky phong o sinh vien: tiep nhan dang ky phong o truc tuyen.\n- Cong huong dan thu tuc, bieu mau, quy che: tra cuu huong dan va tai bieu mau. ## Ky tuc xa Bach Khoa Ha Noi Ky tuc xa Bach Khoa Ha Noi truc thuoc Dai hoc Bach Khoa Ha Noi, phuc vu sinh vien noi tru tai Ha Noi. Thong tin gioi thieu, so do toa nha va dich vu duoc cong bo tren trang thong tin cua ky tuc xa. ## Doi tuong phuc vu"
+  },
+  {
+   "head": "Ky tuc xa Bach Khoa Ha Noi",
+   "relation": "truc thuoc",
+   "tail": "Dai hoc Bach Khoa Ha Noi",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "- Trang thong tin chinh: cong bo tin tuc, thong bao va quy che.\n- Cong dang ky phong o sinh vien: tiep nhan dang ky phong o truc tuyen.\n- Cong huong dan thu tuc, bieu mau, quy che: tra cuu huong dan va tai bieu mau. ## Ky tuc xa Bach Khoa Ha Noi Ky tuc xa Bach Khoa Ha Noi truc thuoc Dai hoc Bach Khoa Ha Noi, phuc vu sinh vien noi tru tai Ha Noi. Thong tin gioi thieu, so do toa nha va dich vu duoc cong bo tren trang thong tin cua ky tuc xa. ## Doi tuong phuc vu"
+  },
+  {
+   "head": "Ky tuc xa Bach Khoa Ha Noi",
+   "relation": "phuc vu",
+   "tail": "sinh vien noi tru tai Ha Noi",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "- Trang thong tin chinh: cong bo tin tuc, thong bao va quy che.\n- Cong dang ky phong o sinh vien: tiep nhan dang ky phong o truc tuyen.\n- Cong huong dan thu tuc, bieu mau, quy che: tra cuu huong dan va tai bieu mau. ## Ky tuc xa Bach Khoa Ha Noi Ky tuc xa Bach Khoa Ha Noi truc thuoc Dai hoc Bach Khoa Ha Noi, phuc vu sinh vien noi tru tai Ha Noi. Thong tin gioi thieu, so do toa nha va dich vu duoc cong bo tren trang thong tin cua ky tuc xa. ## Doi tuong phuc vu"
+  },
+  {
+   "head": "Thong tin gioi thieu, so do toa nha va dich vu",
+   "relation": "duoc cong bo tren",
+   "tail": "trang thong tin cua ky tuc xa",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "- Trang thong tin chinh: cong bo tin tuc, thong bao va quy che.\n- Cong dang ky phong o sinh vien: tiep nhan dang ky phong o truc tuyen.\n- Cong huong dan thu tuc, bieu mau, quy che: tra cuu huong dan va tai bieu mau. ## Ky tuc xa Bach Khoa Ha Noi Ky tuc xa Bach Khoa Ha Noi truc thuoc Dai hoc Bach Khoa Ha Noi, phuc vu sinh vien noi tru tai Ha Noi. Thong tin gioi thieu, so do toa nha va dich vu duoc cong bo tren trang thong tin cua ky tuc xa. ## Doi tuong phuc vu"
+  },
+  {
+   "head": "He thong ky tuc xa",
+   "relation": "phuc vu",
+   "tail": "sinh vien dang theo hoc",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "He thong ky tuc xa phuc vu sinh vien dang theo hoc. Can bo, giang vien va khach chi su dung khu vuc tiep khach theo quy dinh rieng cua ban quan ly."
+  },
+  {
+   "head": "Can bo, giang vien va khach",
+   "relation": "chi su dung",
+   "tail": "khu vuc tiep khach",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "He thong ky tuc xa phuc vu sinh vien dang theo hoc. Can bo, giang vien va khach chi su dung khu vuc tiep khach theo quy dinh rieng cua ban quan ly."
+  },
+  {
+   "head": "khu vuc tiep khach",
+   "relation": "theo quy dinh rieng cua",
+   "tail": "ban quan ly",
+   "source_doc": "ktx-gioi-thieu-chung",
+   "chunk": "He thong ky tuc xa phuc vu sinh vien dang theo hoc. Can bo, giang vien va khach chi su dung khu vuc tiep khach theo quy dinh rieng cua ban quan ly."
+  },
+  {
+   "head": "Giang vien tham giang co hop dong giang day it nhat mot thang",
+   "relation": "duoc dat",
+   "tail": "nha khach",
+   "source_doc": "ktx-guest-house-faculty",
+   "chunk": "# Guest house policy for visiting lecturers ## Eligibility Visiting lecturers with a teaching contract of at least one month may book the guest house. Student dormitory rooms are not available to faculty guests. ## Booking procedure Send a booking request by email at least 14 days before arrival. The management office confirms availability within 3 working days. ## Rates and checkout"
+  },
+  {
+   "head": "Phong ky tuc xa sinh vien",
+   "relation": "khong danh cho",
+   "tail": "khach giang vien",
+   "source_doc": "ktx-guest-house-faculty",
+   "chunk": "# Guest house policy for visiting lecturers ## Eligibility Visiting lecturers with a teaching contract of at least one month may book the guest house. Student dormitory rooms are not available to faculty guests. ## Booking procedure Send a booking request by email at least 14 days before arrival. The management office confirms availability within 3 working days. ## Rates and checkout"
+  },
+  {
+   "head": "Yeu cau dat phong",
+   "relation": "gui bang email",
+   "tail": "it nhat 14 ngay truoc khi den",
+   "source_doc": "ktx-guest-house-faculty",
+   "chunk": "# Guest house policy for visiting lecturers ## Eligibility Visiting lecturers with a teaching contract of at least one month may book the guest house. Student dormitory rooms are not available to faculty guests. ## Booking procedure Send a booking request by email at least 14 days before arrival. The management office confirms availability within 3 working days. ## Rates and checkout"
+  },
+  {
+   "head": "Van phong quan ly",
+   "relation": "xac nhan tinh trang con phong",
+   "tail": "trong vong 3 ngay lam viec",
+   "source_doc": "ktx-guest-house-faculty",
+   "chunk": "# Guest house policy for visiting lecturers ## Eligibility Visiting lecturers with a teaching contract of at least one month may book the guest house. Student dormitory rooms are not available to faculty guests. ## Booking procedure Send a booking request by email at least 14 days before arrival. The management office confirms availability within 3 working days. ## Rates and checkout"
+  },
+  {
+   "head": "The guest house rate",
+   "relation": "is",
+   "tail": "300000 dong per night",
+   "source_doc": "ktx-guest-house-faculty",
+   "chunk": "The guest house rate is 300000 dong per night. Checkout time is 12 o'clock noon. Guests staying more than 30 nights receive a 10 percent discount."
+  },
+  {
+   "head": "Checkout time",
+   "relation": "is",
+   "tail": "12 o'clock noon",
+   "source_doc": "ktx-guest-house-faculty",
+   "chunk": "The guest house rate is 300000 dong per night. Checkout time is 12 o'clock noon. Guests staying more than 30 nights receive a 10 percent discount."
+  },
+  {
+   "head": "Guests staying more than 30 nights",
+   "relation": "receive",
+   "tail": "a 10 percent discount",
+   "source_doc": "ktx-guest-house-faculty",
+   "chunk": "The guest house rate is 300000 dong per night. Checkout time is 12 o'clock noon. Guests staying more than 30 nights receive a 10 percent discount."
+  },
+  {
+   "head": "Phong 8 sinh vien",
+   "relation": "co phi",
+   "tail": "250000 dong mot sinh vien mot thang",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "# Muc phi phong o ky tuc xa cho sinh vien ## Bang phi theo loai phong - Phong 8 sinh vien: 250000 dong mot sinh vien mot thang.\n- Phong 4 sinh vien: 450000 dong mot sinh vien mot thang.\n- Phong 2 sinh vien: 800000 dong mot sinh vien mot thang. ## Tien dat coc Sinh vien dong tien dat coc 500000 dong khi nhan phong. Tien dat coc duoc hoan tra khi sinh vien tra phong va khong gay hu hong co so vat chat. ## Hinh thuc dong phi"
+  },
+  {
+   "head": "Phong 4 sinh vien",
+   "relation": "co phi",
+   "tail": "450000 dong mot sinh vien mot thang",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "# Muc phi phong o ky tuc xa cho sinh vien ## Bang phi theo loai phong - Phong 8 sinh vien: 250000 dong mot sinh vien mot thang.\n- Phong 4 sinh vien: 450000 dong mot sinh vien mot thang.\n- Phong 2 sinh vien: 800000 dong mot sinh vien mot thang. ## Tien dat coc Sinh vien dong tien dat coc 500000 dong khi nhan phong. Tien dat coc duoc hoan tra khi sinh vien tra phong va khong gay hu hong co so vat chat. ## Hinh thuc dong phi"
+  },
+  {
+   "head": "Phong 2 sinh vien",
+   "relation": "co phi",
+   "tail": "800000 dong mot sinh vien mot thang",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "# Muc phi phong o ky tuc xa cho sinh vien ## Bang phi theo loai phong - Phong 8 sinh vien: 250000 dong mot sinh vien mot thang.\n- Phong 4 sinh vien: 450000 dong mot sinh vien mot thang.\n- Phong 2 sinh vien: 800000 dong mot sinh vien mot thang. ## Tien dat coc Sinh vien dong tien dat coc 500000 dong khi nhan phong. Tien dat coc duoc hoan tra khi sinh vien tra phong va khong gay hu hong co so vat chat. ## Hinh thuc dong phi"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "dong tien dat coc",
+   "tail": "500000 dong khi nhan phong",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "# Muc phi phong o ky tuc xa cho sinh vien ## Bang phi theo loai phong - Phong 8 sinh vien: 250000 dong mot sinh vien mot thang.\n- Phong 4 sinh vien: 450000 dong mot sinh vien mot thang.\n- Phong 2 sinh vien: 800000 dong mot sinh vien mot thang. ## Tien dat coc Sinh vien dong tien dat coc 500000 dong khi nhan phong. Tien dat coc duoc hoan tra khi sinh vien tra phong va khong gay hu hong co so vat chat. ## Hinh thuc dong phi"
+  },
+  {
+   "head": "Tien dat coc",
+   "relation": "duoc hoan tra",
+   "tail": "khi sinh vien tra phong va khong gay hu hong co so vat chat",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "# Muc phi phong o ky tuc xa cho sinh vien ## Bang phi theo loai phong - Phong 8 sinh vien: 250000 dong mot sinh vien mot thang.\n- Phong 4 sinh vien: 450000 dong mot sinh vien mot thang.\n- Phong 2 sinh vien: 800000 dong mot sinh vien mot thang. ## Tien dat coc Sinh vien dong tien dat coc 500000 dong khi nhan phong. Tien dat coc duoc hoan tra khi sinh vien tra phong va khong gay hu hong co so vat chat. ## Hinh thuc dong phi"
+  },
+  {
+   "head": "Tien phong",
+   "relation": "dong theo",
+   "tail": "hoc ky",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "Tien phong dong theo hoc ky, 5 thang mot lan, qua chuyen khoan ngan hang theo huong dan tren cong dang ky. Han dong phi la ngay 10 cua thang dau hoc ky. Qua han 15 ngay, sinh vien bi nhac nho bang van ban. ## Mien giam Sinh vien thuoc dien ho ngheo, can ngheo duoc mien giam 50 phan tram tien phong khi co giay xac nhan cua dia phuong."
+  },
+  {
+   "head": "Tien phong",
+   "relation": "dong",
+   "tail": "5 thang mot lan",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "Tien phong dong theo hoc ky, 5 thang mot lan, qua chuyen khoan ngan hang theo huong dan tren cong dang ky. Han dong phi la ngay 10 cua thang dau hoc ky. Qua han 15 ngay, sinh vien bi nhac nho bang van ban. ## Mien giam Sinh vien thuoc dien ho ngheo, can ngheo duoc mien giam 50 phan tram tien phong khi co giay xac nhan cua dia phuong."
+  },
+  {
+   "head": "Tien phong",
+   "relation": "dong qua",
+   "tail": "chuyen khoan ngan hang",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "Tien phong dong theo hoc ky, 5 thang mot lan, qua chuyen khoan ngan hang theo huong dan tren cong dang ky. Han dong phi la ngay 10 cua thang dau hoc ky. Qua han 15 ngay, sinh vien bi nhac nho bang van ban. ## Mien giam Sinh vien thuoc dien ho ngheo, can ngheo duoc mien giam 50 phan tram tien phong khi co giay xac nhan cua dia phuong."
+  },
+  {
+   "head": "Chuyen khoan ngan hang",
+   "relation": "theo huong dan tren",
+   "tail": "cong dang ky",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "Tien phong dong theo hoc ky, 5 thang mot lan, qua chuyen khoan ngan hang theo huong dan tren cong dang ky. Han dong phi la ngay 10 cua thang dau hoc ky. Qua han 15 ngay, sinh vien bi nhac nho bang van ban. ## Mien giam Sinh vien thuoc dien ho ngheo, can ngheo duoc mien giam 50 phan tram tien phong khi co giay xac nhan cua dia phuong."
+  },
+  {
+   "head": "Han dong phi",
+   "relation": "la",
+   "tail": "ngay 10 cua thang dau hoc ky",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "Tien phong dong theo hoc ky, 5 thang mot lan, qua chuyen khoan ngan hang theo huong dan tren cong dang ky. Han dong phi la ngay 10 cua thang dau hoc ky. Qua han 15 ngay, sinh vien bi nhac nho bang van ban. ## Mien giam Sinh vien thuoc dien ho ngheo, can ngheo duoc mien giam 50 phan tram tien phong khi co giay xac nhan cua dia phuong."
+  },
+  {
+   "head": "Qua han 15 ngay",
+   "relation": "sinh vien bi nhac nho bang",
+   "tail": "van ban",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "Tien phong dong theo hoc ky, 5 thang mot lan, qua chuyen khoan ngan hang theo huong dan tren cong dang ky. Han dong phi la ngay 10 cua thang dau hoc ky. Qua han 15 ngay, sinh vien bi nhac nho bang van ban. ## Mien giam Sinh vien thuoc dien ho ngheo, can ngheo duoc mien giam 50 phan tram tien phong khi co giay xac nhan cua dia phuong."
+  },
+  {
+   "head": "Sinh vien thuoc dien ho ngheo, can ngheo",
+   "relation": "duoc mien giam",
+   "tail": "50 phan tram tien phong",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "Tien phong dong theo hoc ky, 5 thang mot lan, qua chuyen khoan ngan hang theo huong dan tren cong dang ky. Han dong phi la ngay 10 cua thang dau hoc ky. Qua han 15 ngay, sinh vien bi nhac nho bang van ban. ## Mien giam Sinh vien thuoc dien ho ngheo, can ngheo duoc mien giam 50 phan tram tien phong khi co giay xac nhan cua dia phuong."
+  },
+  {
+   "head": "Sinh vien thuoc dien ho ngheo, can ngheo",
+   "relation": "duoc mien giam khi co",
+   "tail": "giay xac nhan cua dia phuong",
+   "source_doc": "ktx-muc-phi-sinh-vien",
+   "chunk": "Tien phong dong theo hoc ky, 5 thang mot lan, qua chuyen khoan ngan hang theo huong dan tren cong dang ky. Han dong phi la ngay 10 cua thang dau hoc ky. Qua han 15 ngay, sinh vien bi nhac nho bang van ban. ## Mien giam Sinh vien thuoc dien ho ngheo, can ngheo duoc mien giam 50 phan tram tien phong khi co giay xac nhan cua dia phuong."
+  },
+  {
+   "head": "Cong ky tuc xa Bach Khoa Ha Noi",
+   "relation": "dong luc",
+   "tail": "23 gio doi voi sinh vien",
+   "source_doc": "ktx-noi-quy-hust",
+   "chunk": "# Noi quy ky tuc xa Bach Khoa Ha Noi ## Gio ra vao cong Cong ky tuc xa Bach Khoa Ha Noi dong luc 23 gio doi voi sinh vien. Sinh vien ve sau 23 gio phai xuat trinh the sinh vien cho bao ve truc cong. ## Khach tham Khach den tham sinh vien dang ky tai phong bao ve, thoi gian tiep khach tu 8 gio den 21 gio. Khach khong duoc o lai qua dem. ## Xu ly vi pham"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "ve sau",
+   "tail": "23 gio",
+   "source_doc": "ktx-noi-quy-hust",
+   "chunk": "# Noi quy ky tuc xa Bach Khoa Ha Noi ## Gio ra vao cong Cong ky tuc xa Bach Khoa Ha Noi dong luc 23 gio doi voi sinh vien. Sinh vien ve sau 23 gio phai xuat trinh the sinh vien cho bao ve truc cong. ## Khach tham Khach den tham sinh vien dang ky tai phong bao ve, thoi gian tiep khach tu 8 gio den 21 gio. Khach khong duoc o lai qua dem. ## Xu ly vi pham"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "phai xuat trinh",
+   "tail": "the sinh vien cho bao ve truc cong",
+   "source_doc": "ktx-noi-quy-hust",
+   "chunk": "# Noi quy ky tuc xa Bach Khoa Ha Noi ## Gio ra vao cong Cong ky tuc xa Bach Khoa Ha Noi dong luc 23 gio doi voi sinh vien. Sinh vien ve sau 23 gio phai xuat trinh the sinh vien cho bao ve truc cong. ## Khach tham Khach den tham sinh vien dang ky tai phong bao ve, thoi gian tiep khach tu 8 gio den 21 gio. Khach khong duoc o lai qua dem. ## Xu ly vi pham"
+  },
+  {
+   "head": "Khach den tham sinh vien",
+   "relation": "dang ky tai",
+   "tail": "phong bao ve",
+   "source_doc": "ktx-noi-quy-hust",
+   "chunk": "# Noi quy ky tuc xa Bach Khoa Ha Noi ## Gio ra vao cong Cong ky tuc xa Bach Khoa Ha Noi dong luc 23 gio doi voi sinh vien. Sinh vien ve sau 23 gio phai xuat trinh the sinh vien cho bao ve truc cong. ## Khach tham Khach den tham sinh vien dang ky tai phong bao ve, thoi gian tiep khach tu 8 gio den 21 gio. Khach khong duoc o lai qua dem. ## Xu ly vi pham"
+  },
+  {
+   "head": "Thoi gian tiep khach",
+   "relation": "tu",
+   "tail": "8 gio den 21 gio",
+   "source_doc": "ktx-noi-quy-hust",
+   "chunk": "# Noi quy ky tuc xa Bach Khoa Ha Noi ## Gio ra vao cong Cong ky tuc xa Bach Khoa Ha Noi dong luc 23 gio doi voi sinh vien. Sinh vien ve sau 23 gio phai xuat trinh the sinh vien cho bao ve truc cong. ## Khach tham Khach den tham sinh vien dang ky tai phong bao ve, thoi gian tiep khach tu 8 gio den 21 gio. Khach khong duoc o lai qua dem. ## Xu ly vi pham"
+  },
+  {
+   "head": "Khach",
+   "relation": "khong duoc",
+   "tail": "o lai qua dem",
+   "source_doc": "ktx-noi-quy-hust",
+   "chunk": "# Noi quy ky tuc xa Bach Khoa Ha Noi ## Gio ra vao cong Cong ky tuc xa Bach Khoa Ha Noi dong luc 23 gio doi voi sinh vien. Sinh vien ve sau 23 gio phai xuat trinh the sinh vien cho bao ve truc cong. ## Khach tham Khach den tham sinh vien dang ky tai phong bao ve, thoi gian tiep khach tu 8 gio den 21 gio. Khach khong duoc o lai qua dem. ## Xu ly vi pham"
+  },
+  {
+   "head": "Sinh vien vi pham noi quy lan dau",
+   "relation": "bi",
+   "tail": "nhac nho truoc phong",
+   "source_doc": "ktx-noi-quy-hust",
+   "chunk": "Sinh vien vi pham noi quy lan dau bi nhac nho truoc phong. Vi pham lan hai bi moi len van phong ban quan ly lam viec truc tiep. Vi pham lan ba bi tam dung cho o mot hoc ky."
+  },
+  {
+   "head": "Sinh vien vi pham noi quy lan hai",
+   "relation": "bi",
+   "tail": "moi len van phong ban quan ly lam viec truc tiep",
+   "source_doc": "ktx-noi-quy-hust",
+   "chunk": "Sinh vien vi pham noi quy lan dau bi nhac nho truoc phong. Vi pham lan hai bi moi len van phong ban quan ly lam viec truc tiep. Vi pham lan ba bi tam dung cho o mot hoc ky."
+  },
+  {
+   "head": "Sinh vien vi pham noi quy lan ba",
+   "relation": "bi",
+   "tail": "tam dung cho o mot hoc ky",
+   "source_doc": "ktx-noi-quy-hust",
+   "chunk": "Sinh vien vi pham noi quy lan dau bi nhac nho truoc phong. Vi pham lan hai bi moi len van phong ban quan ly lam viec truc tiep. Vi pham lan ba bi tam dung cho o mot hoc ky."
+  },
+  {
+   "head": "Cong chinh ky tuc xa",
+   "relation": "dong luc",
+   "tail": "22 gio 30 phut moi ngay doi voi sinh vien",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "# Noi quy ky tuc xa cho sinh vien ## Gio ra vao cong Cong chinh ky tuc xa dong luc 22 gio 30 phut moi ngay doi voi sinh vien. Sinh vien ve sau gio dong cong phai dang ky voi bao ve va ghi ly do vao so theo doi. Qua 3 lan ve muon trong mot thang, sinh vien bi lap bien ban nhac nho. ## Khach tham Sinh vien chi duoc tiep khach tai phong tiep khach o tang tret, khung gio tu 8 gio den 20 gio. Khach khong duoc o lai qua dem trong phong o sinh vien. ## Ve sinh va trat tu"
+  },
+  {
+   "head": "Sinh vien ve sau gio dong cong",
+   "relation": "phai",
+   "tail": "dang ky voi bao ve va ghi ly do vao so theo doi",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "# Noi quy ky tuc xa cho sinh vien ## Gio ra vao cong Cong chinh ky tuc xa dong luc 22 gio 30 phut moi ngay doi voi sinh vien. Sinh vien ve sau gio dong cong phai dang ky voi bao ve va ghi ly do vao so theo doi. Qua 3 lan ve muon trong mot thang, sinh vien bi lap bien ban nhac nho. ## Khach tham Sinh vien chi duoc tiep khach tai phong tiep khach o tang tret, khung gio tu 8 gio den 20 gio. Khach khong duoc o lai qua dem trong phong o sinh vien. ## Ve sinh va trat tu"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "bi lap bien ban nhac nho",
+   "tail": "qua 3 lan ve muon trong mot thang",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "# Noi quy ky tuc xa cho sinh vien ## Gio ra vao cong Cong chinh ky tuc xa dong luc 22 gio 30 phut moi ngay doi voi sinh vien. Sinh vien ve sau gio dong cong phai dang ky voi bao ve va ghi ly do vao so theo doi. Qua 3 lan ve muon trong mot thang, sinh vien bi lap bien ban nhac nho. ## Khach tham Sinh vien chi duoc tiep khach tai phong tiep khach o tang tret, khung gio tu 8 gio den 20 gio. Khach khong duoc o lai qua dem trong phong o sinh vien. ## Ve sinh va trat tu"
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "chi duoc tiep khach tai",
+   "tail": "phong tiep khach o tang tret, khung gio tu 8 gio den 20 gio",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "# Noi quy ky tuc xa cho sinh vien ## Gio ra vao cong Cong chinh ky tuc xa dong luc 22 gio 30 phut moi ngay doi voi sinh vien. Sinh vien ve sau gio dong cong phai dang ky voi bao ve va ghi ly do vao so theo doi. Qua 3 lan ve muon trong mot thang, sinh vien bi lap bien ban nhac nho. ## Khach tham Sinh vien chi duoc tiep khach tai phong tiep khach o tang tret, khung gio tu 8 gio den 20 gio. Khach khong duoc o lai qua dem trong phong o sinh vien. ## Ve sinh va trat tu"
+  },
+  {
+   "head": "Khach",
+   "relation": "khong duoc o lai qua dem trong",
+   "tail": "phong o sinh vien",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "# Noi quy ky tuc xa cho sinh vien ## Gio ra vao cong Cong chinh ky tuc xa dong luc 22 gio 30 phut moi ngay doi voi sinh vien. Sinh vien ve sau gio dong cong phai dang ky voi bao ve va ghi ly do vao so theo doi. Qua 3 lan ve muon trong mot thang, sinh vien bi lap bien ban nhac nho. ## Khach tham Sinh vien chi duoc tiep khach tai phong tiep khach o tang tret, khung gio tu 8 gio den 20 gio. Khach khong duoc o lai qua dem trong phong o sinh vien. ## Ve sinh va trat tu"
+  },
+  {
+   "head": "Moi phong",
+   "relation": "co",
+   "tail": "nguoi truc nhat tuan theo lich phan cong",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "- Moi phong cu nguoi truc nhat tuan theo lich phan cong, truc nhat gom quet don va do rac dung noi quy dinh.\n- Khong nau an trong phong o. Khu vuc nau an tap trung mo cua tu 5 gio den 21 gio.\n- Khong su dung thiet bi dien cong suat lon nhu bep dien, lo nuong trong phong o. ## Xu ly vi pham Vi pham lan dau bi nhac nho. Vi pham lan hai bi canh cao truoc toan toa nha. Vi pham lan ba hoac vi pham nghiem trong nhu danh nhau, trom cap se bi cham dut hop dong o ky tuc xa."
+  },
+  {
+   "head": "Truc nhat",
+   "relation": "gom",
+   "tail": "quet don va do rac dung noi quy dinh",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "- Moi phong cu nguoi truc nhat tuan theo lich phan cong, truc nhat gom quet don va do rac dung noi quy dinh.\n- Khong nau an trong phong o. Khu vuc nau an tap trung mo cua tu 5 gio den 21 gio.\n- Khong su dung thiet bi dien cong suat lon nhu bep dien, lo nuong trong phong o. ## Xu ly vi pham Vi pham lan dau bi nhac nho. Vi pham lan hai bi canh cao truoc toan toa nha. Vi pham lan ba hoac vi pham nghiem trong nhu danh nhau, trom cap se bi cham dut hop dong o ky tuc xa."
+  },
+  {
+   "head": "Nau an",
+   "relation": "khong duoc thuc hien",
+   "tail": "trong phong o",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "- Moi phong cu nguoi truc nhat tuan theo lich phan cong, truc nhat gom quet don va do rac dung noi quy dinh.\n- Khong nau an trong phong o. Khu vuc nau an tap trung mo cua tu 5 gio den 21 gio.\n- Khong su dung thiet bi dien cong suat lon nhu bep dien, lo nuong trong phong o. ## Xu ly vi pham Vi pham lan dau bi nhac nho. Vi pham lan hai bi canh cao truoc toan toa nha. Vi pham lan ba hoac vi pham nghiem trong nhu danh nhau, trom cap se bi cham dut hop dong o ky tuc xa."
+  },
+  {
+   "head": "Khu vuc nau an tap trung",
+   "relation": "mo cua",
+   "tail": "tu 5 gio den 21 gio",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "- Moi phong cu nguoi truc nhat tuan theo lich phan cong, truc nhat gom quet don va do rac dung noi quy dinh.\n- Khong nau an trong phong o. Khu vuc nau an tap trung mo cua tu 5 gio den 21 gio.\n- Khong su dung thiet bi dien cong suat lon nhu bep dien, lo nuong trong phong o. ## Xu ly vi pham Vi pham lan dau bi nhac nho. Vi pham lan hai bi canh cao truoc toan toa nha. Vi pham lan ba hoac vi pham nghiem trong nhu danh nhau, trom cap se bi cham dut hop dong o ky tuc xa."
+  },
+  {
+   "head": "Thiet bi dien cong suat lon nhu bep dien, lo nuong",
+   "relation": "khong duoc su dung",
+   "tail": "trong phong o",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "- Moi phong cu nguoi truc nhat tuan theo lich phan cong, truc nhat gom quet don va do rac dung noi quy dinh.\n- Khong nau an trong phong o. Khu vuc nau an tap trung mo cua tu 5 gio den 21 gio.\n- Khong su dung thiet bi dien cong suat lon nhu bep dien, lo nuong trong phong o. ## Xu ly vi pham Vi pham lan dau bi nhac nho. Vi pham lan hai bi canh cao truoc toan toa nha. Vi pham lan ba hoac vi pham nghiem trong nhu danh nhau, trom cap se bi cham dut hop dong o ky tuc xa."
+  },
+  {
+   "head": "Vi pham lan dau",
+   "relation": "bi",
+   "tail": "nhac nho",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "- Moi phong cu nguoi truc nhat tuan theo lich phan cong, truc nhat gom quet don va do rac dung noi quy dinh.\n- Khong nau an trong phong o. Khu vuc nau an tap trung mo cua tu 5 gio den 21 gio.\n- Khong su dung thiet bi dien cong suat lon nhu bep dien, lo nuong trong phong o. ## Xu ly vi pham Vi pham lan dau bi nhac nho. Vi pham lan hai bi canh cao truoc toan toa nha. Vi pham lan ba hoac vi pham nghiem trong nhu danh nhau, trom cap se bi cham dut hop dong o ky tuc xa."
+  },
+  {
+   "head": "Vi pham lan hai",
+   "relation": "bi",
+   "tail": "canh cao truoc toan toa nha",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "- Moi phong cu nguoi truc nhat tuan theo lich phan cong, truc nhat gom quet don va do rac dung noi quy dinh.\n- Khong nau an trong phong o. Khu vuc nau an tap trung mo cua tu 5 gio den 21 gio.\n- Khong su dung thiet bi dien cong suat lon nhu bep dien, lo nuong trong phong o. ## Xu ly vi pham Vi pham lan dau bi nhac nho. Vi pham lan hai bi canh cao truoc toan toa nha. Vi pham lan ba hoac vi pham nghiem trong nhu danh nhau, trom cap se bi cham dut hop dong o ky tuc xa."
+  },
+  {
+   "head": "Vi pham lan ba hoac vi pham nghiem trong nhu danh nhau, trom cap",
+   "relation": "bi",
+   "tail": "cham dut hop dong o ky tuc xa",
+   "source_doc": "ktx-noi-quy-sinh-vien",
+   "chunk": "- Moi phong cu nguoi truc nhat tuan theo lich phan cong, truc nhat gom quet don va do rac dung noi quy dinh.\n- Khong nau an trong phong o. Khu vuc nau an tap trung mo cua tu 5 gio den 21 gio.\n- Khong su dung thiet bi dien cong suat lon nhu bep dien, lo nuong trong phong o. ## Xu ly vi pham Vi pham lan dau bi nhac nho. Vi pham lan hai bi canh cao truoc toan toa nha. Vi pham lan ba hoac vi pham nghiem trong nhu danh nhau, trom cap se bi cham dut hop dong o ky tuc xa."
+  },
+  {
+   "head": "Can bo truc",
+   "relation": "truc",
+   "tail": "24 tren 24 tai phong truc tang tret, ke ca ngay le",
+   "source_doc": "ktx-quy-dinh-can-bo-truc",
+   "chunk": "# Quy dinh truc va quan ly doi voi can bo ky tuc xa ## Che do truc Can bo truc truc 24 tren 24 tai phong truc tang tret, ke ca ngay le. Moi ca truc keo dai 12 tieng, ban giao ca bang bien ban co chu ky hai ben. ## Gio mo cong cho xe cong vu Cong phu danh cho xe cong vu va xe cuu thuong mo 24 tren 24. Can bo truc mo cong trong vong 5 phut ke tu khi nhan yeu cau hop le. ## Tiep nhan phan anh"
+  },
+  {
+   "head": "Moi ca truc",
+   "relation": "keo dai",
+   "tail": "12 tieng",
+   "source_doc": "ktx-quy-dinh-can-bo-truc",
+   "chunk": "# Quy dinh truc va quan ly doi voi can bo ky tuc xa ## Che do truc Can bo truc truc 24 tren 24 tai phong truc tang tret, ke ca ngay le. Moi ca truc keo dai 12 tieng, ban giao ca bang bien ban co chu ky hai ben. ## Gio mo cong cho xe cong vu Cong phu danh cho xe cong vu va xe cuu thuong mo 24 tren 24. Can bo truc mo cong trong vong 5 phut ke tu khi nhan yeu cau hop le. ## Tiep nhan phan anh"
+  },
+  {
+   "head": "Ban giao ca",
+   "relation": "bang",
+   "tail": "bien ban co chu ky hai ben",
+   "source_doc": "ktx-quy-dinh-can-bo-truc",
+   "chunk": "# Quy dinh truc va quan ly doi voi can bo ky tuc xa ## Che do truc Can bo truc truc 24 tren 24 tai phong truc tang tret, ke ca ngay le. Moi ca truc keo dai 12 tieng, ban giao ca bang bien ban co chu ky hai ben. ## Gio mo cong cho xe cong vu Cong phu danh cho xe cong vu va xe cuu thuong mo 24 tren 24. Can bo truc mo cong trong vong 5 phut ke tu khi nhan yeu cau hop le. ## Tiep nhan phan anh"
+  },
+  {
+   "head": "Cong phu",
+   "relation": "danh cho",
+   "tail": "xe cong vu va xe cuu thuong",
+   "source_doc": "ktx-quy-dinh-can-bo-truc",
+   "chunk": "# Quy dinh truc va quan ly doi voi can bo ky tuc xa ## Che do truc Can bo truc truc 24 tren 24 tai phong truc tang tret, ke ca ngay le. Moi ca truc keo dai 12 tieng, ban giao ca bang bien ban co chu ky hai ben. ## Gio mo cong cho xe cong vu Cong phu danh cho xe cong vu va xe cuu thuong mo 24 tren 24. Can bo truc mo cong trong vong 5 phut ke tu khi nhan yeu cau hop le. ## Tiep nhan phan anh"
+  },
+  {
+   "head": "Cong phu",
+   "relation": "mo",
+   "tail": "24 tren 24",
+   "source_doc": "ktx-quy-dinh-can-bo-truc",
+   "chunk": "# Quy dinh truc va quan ly doi voi can bo ky tuc xa ## Che do truc Can bo truc truc 24 tren 24 tai phong truc tang tret, ke ca ngay le. Moi ca truc keo dai 12 tieng, ban giao ca bang bien ban co chu ky hai ben. ## Gio mo cong cho xe cong vu Cong phu danh cho xe cong vu va xe cuu thuong mo 24 tren 24. Can bo truc mo cong trong vong 5 phut ke tu khi nhan yeu cau hop le. ## Tiep nhan phan anh"
+  },
+  {
+   "head": "Can bo truc",
+   "relation": "mo cong trong vong",
+   "tail": "5 phut ke tu khi nhan yeu cau hop le",
+   "source_doc": "ktx-quy-dinh-can-bo-truc",
+   "chunk": "# Quy dinh truc va quan ly doi voi can bo ky tuc xa ## Che do truc Can bo truc truc 24 tren 24 tai phong truc tang tret, ke ca ngay le. Moi ca truc keo dai 12 tieng, ban giao ca bang bien ban co chu ky hai ben. ## Gio mo cong cho xe cong vu Cong phu danh cho xe cong vu va xe cuu thuong mo 24 tren 24. Can bo truc mo cong trong vong 5 phut ke tu khi nhan yeu cau hop le. ## Tiep nhan phan anh"
+  },
+  {
+   "head": "Can bo truc tiep",
+   "relation": "nhan phan anh cua sinh vien qua",
+   "tail": "so dien thoai duong day nong va so truc ban",
+   "source_doc": "ktx-quy-dinh-can-bo-truc",
+   "chunk": "Can bo truc tiep nhan phan anh cua sinh vien qua so dien thoai duong day nong va so truc ban. Moi phan anh phai duoc ghi vao so nhat ky va phan hoi ket qua xu ly trong vong 48 gio. ## Kiem tra dinh ky Ban quan ly kiem tra co so vat chat dinh ky moi tuan mot lan. Can bo phu trach toa nha lap bien ban kiem tra va de xuat sua chua trong vong 24 gio sau kiem tra."
+  },
+  {
+   "head": "Moi phan anh",
+   "relation": "phai duoc ghi vao",
+   "tail": "so nhat ky",
+   "source_doc": "ktx-quy-dinh-can-bo-truc",
+   "chunk": "Can bo truc tiep nhan phan anh cua sinh vien qua so dien thoai duong day nong va so truc ban. Moi phan anh phai duoc ghi vao so nhat ky va phan hoi ket qua xu ly trong vong 48 gio. ## Kiem tra dinh ky Ban quan ly kiem tra co so vat chat dinh ky moi tuan mot lan. Can bo phu trach toa nha lap bien ban kiem tra va de xuat sua chua trong vong 24 gio sau kiem tra."
+  },
+  {
+   "head": "Moi phan anh",
+   "relation": "phai duoc phan hoi ket qua xu ly trong vong",
+   "tail": "48 gio",
+   "source_doc": "ktx-quy-dinh-can-bo-truc",
+   "chunk": "Can bo truc tiep nhan phan anh cua sinh vien qua so dien thoai duong day nong va so truc ban. Moi phan anh phai duoc ghi vao so nhat ky va phan hoi ket qua xu ly trong vong 48 gio. ## Kiem tra dinh ky Ban quan ly kiem tra co so vat chat dinh ky moi tuan mot lan. Can bo phu trach toa nha lap bien ban kiem tra va de xuat sua chua trong vong 24 gio sau kiem tra."
+  },
+  {
+   "head": "Ban quan ly",
+   "relation": "kiem tra co so vat chat dinh ky",
+   "tail": "moi tuan mot lan",
+   "source_doc": "ktx-quy-dinh-can-bo-truc",
+   "chunk": "Can bo truc tiep nhan phan anh cua sinh vien qua so dien thoai duong day nong va so truc ban. Moi phan anh phai duoc ghi vao so nhat ky va phan hoi ket qua xu ly trong vong 48 gio. ## Kiem tra dinh ky Ban quan ly kiem tra co so vat chat dinh ky moi tuan mot lan. Can bo phu trach toa nha lap bien ban kiem tra va de xuat sua chua trong vong 24 gio sau kiem tra."
+  },
+  {
+   "head": "Can bo phu trach toa nha",
+   "relation": "lap bien ban kiem tra va de xuat sua chua trong vong",
+   "tail": "24 gio sau kiem tra",
+   "source_doc": "ktx-quy-dinh-can-bo-truc",
+   "chunk": "Can bo truc tiep nhan phan anh cua sinh vien qua so dien thoai duong day nong va so truc ban. Moi phan anh phai duoc ghi vao so nhat ky va phan hoi ket qua xu ly trong vong 48 gio. ## Kiem tra dinh ky Ban quan ly kiem tra co so vat chat dinh ky moi tuan mot lan. Can bo phu trach toa nha lap bien ban kiem tra va de xuat sua chua trong vong 24 gio sau kiem tra."
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "nop don tra phong cho",
+   "tail": "truong toa nha",
+   "source_doc": "ktx-thu-tuc-giay-to",
+   "chunk": "## Thu tuc tra phong Truoc khi tra phong 7 ngay, sinh vien nop don tra phong cho truong toa nha. Ngay tra phong, sinh vien ban giao lai the tu va chia khoa, doi chieu tinh trang phong voi bien ban luc nhan. Tien dat coc duoc hoan tra trong vong 15 ngay lam viec qua tai khoan ngan hang sinh vien da dang ky. ## Bieu mau Cac bieu mau don dang ky, don tra phong va bien ban ban giao duoc tai tren cong huong dan thu tuc, bieu mau, quy che."
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "nop don tra phong truoc khi tra phong",
+   "tail": "7 ngay",
+   "source_doc": "ktx-thu-tuc-giay-to",
+   "chunk": "## Thu tuc tra phong Truoc khi tra phong 7 ngay, sinh vien nop don tra phong cho truong toa nha. Ngay tra phong, sinh vien ban giao lai the tu va chia khoa, doi chieu tinh trang phong voi bien ban luc nhan. Tien dat coc duoc hoan tra trong vong 15 ngay lam viec qua tai khoan ngan hang sinh vien da dang ky. ## Bieu mau Cac bieu mau don dang ky, don tra phong va bien ban ban giao duoc tai tren cong huong dan thu tuc, bieu mau, quy che."
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "ban giao lai",
+   "tail": "the tu va chia khoa",
+   "source_doc": "ktx-thu-tuc-giay-to",
+   "chunk": "## Thu tuc tra phong Truoc khi tra phong 7 ngay, sinh vien nop don tra phong cho truong toa nha. Ngay tra phong, sinh vien ban giao lai the tu va chia khoa, doi chieu tinh trang phong voi bien ban luc nhan. Tien dat coc duoc hoan tra trong vong 15 ngay lam viec qua tai khoan ngan hang sinh vien da dang ky. ## Bieu mau Cac bieu mau don dang ky, don tra phong va bien ban ban giao duoc tai tren cong huong dan thu tuc, bieu mau, quy che."
+  },
+  {
+   "head": "Sinh vien",
+   "relation": "doi chieu tinh trang phong voi",
+   "tail": "bien ban luc nhan",
+   "source_doc": "ktx-thu-tuc-giay-to",
+   "chunk": "## Thu tuc tra phong Truoc khi tra phong 7 ngay, sinh vien nop don tra phong cho truong toa nha. Ngay tra phong, sinh vien ban giao lai the tu va chia khoa, doi chieu tinh trang phong voi bien ban luc nhan. Tien dat coc duoc hoan tra trong vong 15 ngay lam viec qua tai khoan ngan hang sinh vien da dang ky. ## Bieu mau Cac bieu mau don dang ky, don tra phong va bien ban ban giao duoc tai tren cong huong dan thu tuc, bieu mau, quy che."
+  },
+  {
+   "head": "Tien dat coc",
+   "relation": "duoc hoan tra trong vong",
+   "tail": "15 ngay lam viec",
+   "source_doc": "ktx-thu-tuc-giay-to",
+   "chunk": "## Thu tuc tra phong Truoc khi tra phong 7 ngay, sinh vien nop don tra phong cho truong toa nha. Ngay tra phong, sinh vien ban giao lai the tu va chia khoa, doi chieu tinh trang phong voi bien ban luc nhan. Tien dat coc duoc hoan tra trong vong 15 ngay lam viec qua tai khoan ngan hang sinh vien da dang ky. ## Bieu mau Cac bieu mau don dang ky, don tra phong va bien ban ban giao duoc tai tren cong huong dan thu tuc, bieu mau, quy che."
+  },
+  {
+   "head": "Tien dat coc",
+   "relation": "duoc hoan tra qua",
+   "tail": "tai khoan ngan hang sinh vien da dang ky",
+   "source_doc": "ktx-thu-tuc-giay-to",
+   "chunk": "## Thu tuc tra phong Truoc khi tra phong 7 ngay, sinh vien nop don tra phong cho truong toa nha. Ngay tra phong, sinh vien ban giao lai the tu va chia khoa, doi chieu tinh trang phong voi bien ban luc nhan. Tien dat coc duoc hoan tra trong vong 15 ngay lam viec qua tai khoan ngan hang sinh vien da dang ky. ## Bieu mau Cac bieu mau don dang ky, don tra phong va bien ban ban giao duoc tai tren cong huong dan thu tuc, bieu mau, quy che."
+  },
+  {
+   "head": "Cac bieu mau don dang ky, don tra phong va bien ban ban giao",
+   "relation": "duoc tai tren",
+   "tail": "cong huong dan thu tuc, bieu mau, quy che",
+   "source_doc": "ktx-thu-tuc-giay-to",
+   "chunk": "## Thu tuc tra phong Truoc khi tra phong 7 ngay, sinh vien nop don tra phong cho truong toa nha. Ngay tra phong, sinh vien ban giao lai the tu va chia khoa, doi chieu tinh trang phong voi bien ban luc nhan. Tien dat coc duoc hoan tra trong vong 15 ngay lam viec qua tai khoan ngan hang sinh vien da dang ky. ## Bieu mau Cac bieu mau don dang ky, don tra phong va bien ban ban giao duoc tai tren cong huong dan thu tuc, bieu mau, quy che."
+  }
+ ]
+}

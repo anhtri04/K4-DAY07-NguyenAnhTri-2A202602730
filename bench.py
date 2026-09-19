@@ -63,6 +63,30 @@ QUERIES = [
         "filter": None,
         "note": "Hoi che tai/muc xu ly.",
     },
+    {
+        "id": "Q6",
+        "question": "Muc phi phong 8 sinh vien hien tai la bao nhieu mot thang?",
+        "gold_doc": "ktx-muc-phi-sinh-vien",
+        "gold_snippet": "250000",
+        "filter": None,
+        "note": "Stress version: bieu cu 2023 noi 200000, phai lay bieu hien hanh.",
+    },
+    {
+        "id": "Q7",
+        "question": "Sinh vien Bach Khoa Ha Noi phai ve ky tuc xa truoc may gio?",
+        "gold_doc": "ktx-noi-quy-hust",
+        "gold_snippet": "23 gio",
+        "filter": None,
+        "note": "Stress cross-doc: VNU noi 22 gio 30, HUST noi 23 gio.",
+    },
+    {
+        "id": "Q8",
+        "question": "Dich vu giat ui o khu B mo cua den may gio?",
+        "gold_doc": "ktx-bang-tin-tho",
+        "gold_snippet": "20 gio",
+        "filter": None,
+        "note": "Stress noise: dap an chon trong bang tin tho.",
+    },
 ]
 
 

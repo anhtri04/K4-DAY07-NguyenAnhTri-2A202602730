@@ -1,0 +1,278 @@
+LLM unavailable (Missing API key: set GRAPH_NER_API_KEY (or DEEPSEEK_API_KEY).); using regex fallback.
+Graph: extractor=regex-fallback entities=8 triples=27
+
+[Q1] Cong ky tuc xa dong luc may gio?
+  graph : 1pts (content-hit@2)
+    score=0.500 doc=ktx-noi-quy-hust | Cong ky tuc xa --dong luc--> 23 gio doi voi sinh vien | # Noi quy ky tuc xa Bach Khoa Ha N
+    score=0.500 doc=ktx-noi-quy-sinh-vien | Cong ky tuc xa --dong luc--> 22 gio 30 phut moi ngay doi voi sinh vien | # Noi quy ky tuc 
+  vector: 1pts (content-hit@2)
+    score=0.450 doc=ktx-noi-quy-hust
+    score=0.404 doc=ktx-noi-quy-sinh-vien
+    score=0.290 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q2] Phong 4 sinh vien co muc phi bao nhieu mot thang?
+  graph : 1pts (content-hit@3)
+    score=0.500 doc=ktx-bieu-phi-cu-2023 | Phong 4 sinh vien --co phi--> 350000 dong mot sinh vien mot thang | # Bieu phi phong o cu 
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Phong 4 sinh vien --co phi--> so luong gioi han, xet theo thu tu dang ky | - Phong 8 sinh 
+    score=0.500 doc=ktx-muc-phi-sinh-vien | Phong 4 sinh vien --co phi--> 450000 dong mot sinh vien mot thang | # Muc phi phong o ky t
+  vector: 2pts (content-hit@1)
+    score=0.661 doc=ktx-muc-phi-sinh-vien
+    score=0.624 doc=ktx-bieu-phi-cu-2023
+    score=0.426 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q3] Ho so nhan phong ky tuc xa gom nhung giay to gi?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bieu-phi-cu-2023 | Phong 8 sinh vien --co phi--> 200000 dong mot sinh vien mot thang | # Bieu phi phong o cu 
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Phong 8 sinh vien --co phi--> loai phong pho bien nhat, uu tien sinh vien nam nhat | - Pho
+    score=0.500 doc=ktx-muc-phi-sinh-vien | Phong 8 sinh vien --co phi--> 250000 dong mot sinh vien mot thang | # Muc phi phong o ky t
+  vector: 2pts (content-hit@1)
+    score=0.576 doc=ktx-thu-tuc-giay-to
+    score=0.326 doc=ktx-gioi-thieu-chung
+    score=0.311 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q4] Quy trinh dang ky phong o gom may buoc va khi nao co ket qua xet duyet?
+  graph : 0pts (doc-hit-only@2 (snippet missing -> inflated if scored by doc))
+    score=0.500 doc=ktx-bieu-phi-cu-2023 | Phong 8 sinh vien --co phi--> 200000 dong mot sinh vien mot thang | # Bieu phi phong o cu 
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Phong 8 sinh vien --co phi--> loai phong pho bien nhat, uu tien sinh vien nam nhat | - Pho
+    score=0.500 doc=ktx-muc-phi-sinh-vien | Phong 8 sinh vien --co phi--> 250000 dong mot sinh vien mot thang | # Muc phi phong o ky t
+  vector: 2pts (content-hit@1)
+    score=0.491 doc=ktx-dang-ky-phong-sinh-vien
+    score=0.430 doc=ktx-dang-ky-phong-sinh-vien
+    score=0.270 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q5] Sinh vien vi pham noi quy lan thu ba bi xu ly nhu the nao?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bieu-phi-cu-2023 | Phong 8 sinh vien --co phi--> 200000 dong mot sinh vien mot thang | # Bieu phi phong o cu 
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Phong 8 sinh vien --co phi--> loai phong pho bien nhat, uu tien sinh vien nam nhat | - Pho
+    score=0.500 doc=ktx-muc-phi-sinh-vien | Phong 8 sinh vien --co phi--> 250000 dong mot sinh vien mot thang | # Muc phi phong o ky t
+  vector: 1pts (content-hit@2)
+    score=0.588 doc=ktx-noi-quy-hust
+    score=0.451 doc=ktx-noi-quy-sinh-vien
+    score=0.341 doc=ktx-noi-quy-hust
+
+[Q6] Muc phi phong 8 sinh vien hien tai la bao nhieu mot thang?
+  graph : 1pts (content-hit@3)
+    score=0.500 doc=ktx-bieu-phi-cu-2023 | Phong 8 sinh vien --co phi--> 200000 dong mot sinh vien mot thang | # Bieu phi phong o cu 
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Phong 8 sinh vien --co phi--> loai phong pho bien nhat, uu tien sinh vien nam nhat | - Pho
+    score=0.500 doc=ktx-muc-phi-sinh-vien | Phong 8 sinh vien --co phi--> 250000 dong mot sinh vien mot thang | # Muc phi phong o ky t
+  vector: 1pts (content-hit@2)
+    score=0.620 doc=ktx-bieu-phi-cu-2023
+    score=0.588 doc=ktx-muc-phi-sinh-vien
+    score=0.389 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q7] Sinh vien Bach Khoa Ha Noi phai ve ky tuc xa truoc may gio?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bieu-phi-cu-2023 | Phong 8 sinh vien --co phi--> 200000 dong mot sinh vien mot thang | # Bieu phi phong o cu 
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Phong 8 sinh vien --co phi--> loai phong pho bien nhat, uu tien sinh vien nam nhat | - Pho
+    score=0.500 doc=ktx-muc-phi-sinh-vien | Phong 8 sinh vien --co phi--> 250000 dong mot sinh vien mot thang | # Muc phi phong o ky t
+  vector: 2pts (content-hit@1)
+    score=0.661 doc=ktx-noi-quy-hust
+    score=0.519 doc=ktx-gioi-thieu-chung
+    score=0.515 doc=ktx-noi-quy-sinh-vien
+
+[Q8] Dich vu giat ui o khu B mo cua den may gio?
+  graph : 0pts (miss)
+  vector: 2pts (content-hit@1)
+    score=0.506 doc=ktx-bang-tin-tho
+    score=0.200 doc=ktx-bang-tin-tho
+    score=0.183 doc=ktx-noi-quy-sinh-vien
+
+TOTAL graph=3/16 vector=13/16
+Traceback (most recent call last):
+  File "/home/anhtri04/ai20k/K4-DAY07-NguyenAnhTri-2A202602730/graph_bench.py", line 83, in <module>
+    main()
+    ~~~~^^
+  File "/home/anhtri04/ai20k/K4-DAY07-NguyenAnhTri-2A202602730/graph_bench.py", line 57, in main
+    graph, extractor_name = build_graph(docs)
+                            ~~~~~~~~~~~^^^^^^
+  File "/home/anhtri04/ai20k/K4-DAY07-NguyenAnhTri-2A202602730/graph_bench.py", line 36, in build_graph
+    graph.add_triples(extractor.extract(doc.content, doc.metadata["doc_id"]), doc.content)
+                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anhtri04/ai20k/K4-DAY07-NguyenAnhTri-2A202602730/src/graph_rag.py", line 55, in extract
+    messages=[{"role": "user", "content": EXTRACTION_PROMPT.format(text=text[:4000])}],
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: '"head"'
+Graph: extractor=llm(deepseek-flash) entities=75 triples=125
+
+[Q1] Cong ky tuc xa dong luc may gio?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bang-tin-tho | ky tuc xa --chao don--> hon 10000 sinh vien moi nhap truong | # Bang tin tong hop cong ky 
+  vector: 1pts (content-hit@2)
+    score=0.450 doc=ktx-noi-quy-hust
+    score=0.404 doc=ktx-noi-quy-sinh-vien
+    score=0.290 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q2] Phong 4 sinh vien co muc phi bao nhieu mot thang?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bang-tin-tho | Sinh vien --lay do truoc--> 20 gio 30 | Dich vu giat ui o khu B mo cua den 20 gio cac ngay
+    score=0.500 doc=ktx-bieu-phi-cu-2023 | Sinh vien --tra cuu--> bieu phi hien hanh tren cong thong tin cua ky tuc xa | # Bieu phi p
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Sinh vien --phai cho--> dot bo sung | - Phong 8 sinh vien: loai phong pho bien nhat, uu ti
+  vector: 2pts (content-hit@1)
+    score=0.661 doc=ktx-muc-phi-sinh-vien
+    score=0.624 doc=ktx-bieu-phi-cu-2023
+    score=0.426 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q3] Ho so nhan phong ky tuc xa gom nhung giay to gi?
+  graph : 1pts (content-hit@2)
+    score=0.500 doc=ktx-bang-tin-tho | ky tuc xa --chao don--> hon 10000 sinh vien moi nhap truong | # Bang tin tong hop cong ky 
+    score=0.500 doc=ktx-thu-tuc-giay-to | Ho so nhan phong --gom--> 4 loai giay to | # Thu tuc giay to nhan va tra phong ky tuc xa #
+    score=0.500 doc=ktx-thu-tuc-giay-to | Ho so nhan phong --gom--> can cuoc cong dan ban sao | # Thu tuc giay to nhan va tra phong 
+  vector: 2pts (content-hit@1)
+    score=0.576 doc=ktx-thu-tuc-giay-to
+    score=0.326 doc=ktx-gioi-thieu-chung
+    score=0.311 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q4] Quy trinh dang ky phong o gom may buoc va khi nao co ket qua xet duyet?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bang-tin-tho | ky tuc xa --chao don--> hon 10000 sinh vien moi nhap truong | # Bang tin tong hop cong ky 
+    score=0.500 doc=ktx-bang-tin-tho | Dich vu giat ui o khu B --mo cua den--> 20 gio cac ngay trong tuan | Dich vu giat ui o khu
+    score=0.500 doc=ktx-bang-tin-tho | Dich vu giat ui o khu B --gia--> 15000 dong mot luot giat 5 kg | Dich vu giat ui o khu B m
+  vector: 2pts (content-hit@1)
+    score=0.491 doc=ktx-dang-ky-phong-sinh-vien
+    score=0.430 doc=ktx-dang-ky-phong-sinh-vien
+    score=0.270 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q5] Sinh vien vi pham noi quy lan thu ba bi xu ly nhu the nao?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bang-tin-tho | Sinh vien --lay do truoc--> 20 gio 30 | Dich vu giat ui o khu B mo cua den 20 gio cac ngay
+    score=0.500 doc=ktx-bieu-phi-cu-2023 | Sinh vien --tra cuu--> bieu phi hien hanh tren cong thong tin cua ky tuc xa | # Bieu phi p
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Sinh vien --phai cho--> dot bo sung | - Phong 8 sinh vien: loai phong pho bien nhat, uu ti
+  vector: 1pts (content-hit@2)
+    score=0.588 doc=ktx-noi-quy-hust
+    score=0.451 doc=ktx-noi-quy-sinh-vien
+    score=0.341 doc=ktx-noi-quy-hust
+
+[Q6] Muc phi phong 8 sinh vien hien tai la bao nhieu mot thang?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bang-tin-tho | Sinh vien --lay do truoc--> 20 gio 30 | Dich vu giat ui o khu B mo cua den 20 gio cac ngay
+    score=0.500 doc=ktx-bieu-phi-cu-2023 | Sinh vien --tra cuu--> bieu phi hien hanh tren cong thong tin cua ky tuc xa | # Bieu phi p
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Sinh vien --phai cho--> dot bo sung | - Phong 8 sinh vien: loai phong pho bien nhat, uu ti
+  vector: 1pts (content-hit@2)
+    score=0.620 doc=ktx-bieu-phi-cu-2023
+    score=0.588 doc=ktx-muc-phi-sinh-vien
+    score=0.389 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q7] Sinh vien Bach Khoa Ha Noi phai ve ky tuc xa truoc may gio?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bang-tin-tho | ky tuc xa --chao don--> hon 10000 sinh vien moi nhap truong | # Bang tin tong hop cong ky 
+    score=0.500 doc=ktx-bang-tin-tho | Sinh vien --lay do truoc--> 20 gio 30 | Dich vu giat ui o khu B mo cua den 20 gio cac ngay
+    score=0.500 doc=ktx-bieu-phi-cu-2023 | Sinh vien --tra cuu--> bieu phi hien hanh tren cong thong tin cua ky tuc xa | # Bieu phi p
+  vector: 2pts (content-hit@1)
+    score=0.661 doc=ktx-noi-quy-hust
+    score=0.519 doc=ktx-gioi-thieu-chung
+    score=0.515 doc=ktx-noi-quy-sinh-vien
+
+[Q8] Dich vu giat ui o khu B mo cua den may gio?
+  graph : 2pts (content-hit@1)
+    score=0.500 doc=ktx-bang-tin-tho | Dich vu giat ui o khu B --mo cua den--> 20 gio cac ngay trong tuan | Dich vu giat ui o khu
+    score=0.500 doc=ktx-bang-tin-tho | Dich vu giat ui o khu B --gia--> 15000 dong mot luot giat 5 kg | Dich vu giat ui o khu B m
+  vector: 2pts (content-hit@1)
+    score=0.506 doc=ktx-bang-tin-tho
+    score=0.200 doc=ktx-bang-tin-tho
+    score=0.183 doc=ktx-noi-quy-sinh-vien
+
+TOTAL graph=3/16 vector=13/16
+Traceback (most recent call last):
+  File "/home/anhtri04/ai20k/K4-DAY07-NguyenAnhTri-2A202602730/graph_bench.py", line 83, in <module>
+    main()
+    ~~~~^^
+  File "/home/anhtri04/ai20k/K4-DAY07-NguyenAnhTri-2A202602730/graph_bench.py", line 57, in main
+    graph, extractor_name = build_graph(docs)
+                            ~~~~~~~~~~~^^^^^^
+  File "/home/anhtri04/ai20k/K4-DAY07-NguyenAnhTri-2A202602730/graph_bench.py", line 36, in build_graph
+    graph.add_triples(extractor.extract(doc.content, doc.metadata["doc_id"]), doc.content)
+                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anhtri04/ai20k/K4-DAY07-NguyenAnhTri-2A202602730/src/graph_rag.py", line 50, in extract
+    from openai import OpenAI
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/home/anhtri04/ai20k/K4-DAY07-NguyenAnhTri-2A202602730/graph_bench.py", line 102, in <module>
+    main()
+    ~~~~^^
+  File "/home/anhtri04/ai20k/K4-DAY07-NguyenAnhTri-2A202602730/graph_bench.py", line 76, in main
+    graph, extractor_name = build_graph(docs)
+                            ~~~~~~~~~~~^^^^^^
+  File "/home/anhtri04/ai20k/K4-DAY07-NguyenAnhTri-2A202602730/graph_bench.py", line 48, in build_graph
+    triples = extractor.extract(doc.content, doc.metadata["doc_id"])
+  File "/home/anhtri04/ai20k/K4-DAY07-NguyenAnhTri-2A202602730/src/graph_rag.py", line 50, in extract
+    from openai import OpenAI
+ModuleNotFoundError: No module named 'openai'
+Cached 104 triples to data/graph_triples.json.
+Graph: extractor=llm(deepseek-flash) entities=65 triples=104
+
+[Q1] Cong ky tuc xa dong luc may gio?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bang-tin-tho | ky tuc xa --chao don--> hon 10000 sinh vien moi nhap truong | # Bang tin tong hop cong ky 
+  vector: 1pts (content-hit@2)
+    score=0.450 doc=ktx-noi-quy-hust
+    score=0.404 doc=ktx-noi-quy-sinh-vien
+    score=0.290 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q2] Phong 4 sinh vien co muc phi bao nhieu mot thang?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bieu-phi-cu-2023 | Phong 4 sinh vien --co phi--> 350000 dong mot sinh vien mot thang | # Bieu phi phong o cu 
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Phong 4 sinh vien --co--> so luong gioi han | - Phong 8 sinh vien: loai phong pho bien nha
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Phong 4 sinh vien --xet theo--> thu tu dang ky | - Phong 8 sinh vien: loai phong pho bien 
+  vector: 2pts (content-hit@1)
+    score=0.661 doc=ktx-muc-phi-sinh-vien
+    score=0.624 doc=ktx-bieu-phi-cu-2023
+    score=0.426 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q3] Ho so nhan phong ky tuc xa gom nhung giay to gi?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bang-tin-tho | ky tuc xa --chao don--> hon 10000 sinh vien moi nhap truong | # Bang tin tong hop cong ky 
+  vector: 2pts (content-hit@1)
+    score=0.576 doc=ktx-thu-tuc-giay-to
+    score=0.326 doc=ktx-gioi-thieu-chung
+    score=0.311 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q4] Quy trinh dang ky phong o gom may buoc va khi nao co ket qua xet duyet?
+  graph : 0pts (doc-hit-only@3 (snippet missing -> inflated if scored by doc))
+    score=0.500 doc=ktx-guest-house-faculty | Giang vien tham giang co hop dong giang day it nhat mot thang --duoc dat--> nha khach | # 
+    score=0.500 doc=ktx-thu-tuc-giay-to | Cac bieu mau don dang ky, don tra phong va bien ban ban giao --duoc tai tren--> cong huong
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Sinh vien dang theo hoc tai cac truong dai hoc thanh vien --duoc dang ky--> phong o ky tuc
+  vector: 2pts (content-hit@1)
+    score=0.491 doc=ktx-dang-ky-phong-sinh-vien
+    score=0.430 doc=ktx-dang-ky-phong-sinh-vien
+    score=0.270 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q5] Sinh vien vi pham noi quy lan thu ba bi xu ly nhu the nao?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bang-tin-tho | Sinh vien --lay do truoc--> 20 gio 30 | Dich vu giat ui o khu B mo cua den 20 gio cac ngay
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Sinh vien --truy cap--> cong dang ky phong o sinh vien | Buoc 1: Truy cap cong dang ky pho
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Sinh vien --tao tai khoan bang--> ma so sinh vien | Buoc 1: Truy cap cong dang ky phong o 
+  vector: 1pts (content-hit@2)
+    score=0.588 doc=ktx-noi-quy-hust
+    score=0.451 doc=ktx-noi-quy-sinh-vien
+    score=0.341 doc=ktx-noi-quy-hust
+
+[Q6] Muc phi phong 8 sinh vien hien tai la bao nhieu mot thang?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bieu-phi-cu-2023 | Phong 8 sinh vien --co phi--> 200000 dong mot sinh vien mot thang | # Bieu phi phong o cu 
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Phong 8 sinh vien --la--> loai phong pho bien nhat | - Phong 8 sinh vien: loai phong pho b
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Phong 8 sinh vien --uu tien--> sinh vien nam nhat | - Phong 8 sinh vien: loai phong pho bi
+  vector: 1pts (content-hit@2)
+    score=0.620 doc=ktx-bieu-phi-cu-2023
+    score=0.588 doc=ktx-muc-phi-sinh-vien
+    score=0.389 doc=ktx-dang-ky-phong-sinh-vien
+
+[Q7] Sinh vien Bach Khoa Ha Noi phai ve ky tuc xa truoc may gio?
+  graph : 0pts (miss)
+    score=0.500 doc=ktx-bang-tin-tho | ky tuc xa --chao don--> hon 10000 sinh vien moi nhap truong | # Bang tin tong hop cong ky 
+    score=0.500 doc=ktx-bang-tin-tho | Sinh vien --lay do truoc--> 20 gio 30 | Dich vu giat ui o khu B mo cua den 20 gio cac ngay
+    score=0.500 doc=ktx-dang-ky-phong-sinh-vien | Sinh vien --truy cap--> cong dang ky phong o sinh vien | Buoc 1: Truy cap cong dang ky pho
+  vector: 2pts (content-hit@1)
+    score=0.661 doc=ktx-noi-quy-hust
+    score=0.519 doc=ktx-gioi-thieu-chung
+    score=0.515 doc=ktx-noi-quy-sinh-vien
+
+[Q8] Dich vu giat ui o khu B mo cua den may gio?
+  graph : 2pts (content-hit@1)
+    score=0.500 doc=ktx-bang-tin-tho | Dich vu giat ui o khu B --mo cua den--> 20 gio cac ngay trong tuan | Dich vu giat ui o khu
+    score=0.500 doc=ktx-bang-tin-tho | Dich vu giat ui o khu B --co gia--> 15000 dong mot luot giat 5 kg | Dich vu giat ui o khu 
+  vector: 2pts (content-hit@1)
+    score=0.506 doc=ktx-bang-tin-tho
+    score=0.200 doc=ktx-bang-tin-tho
+    score=0.183 doc=ktx-noi-quy-sinh-vien
+
+TOTAL graph=2/16 vector=13/16
