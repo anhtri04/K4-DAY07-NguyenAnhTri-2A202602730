@@ -48,14 +48,21 @@ class LocalEmbedder:
 
 
 class OpenAIEmbedder:
-    """OpenAI embeddings API-backed embedder."""
+    """OpenAI embeddings API-backed embedder.
 
-    def __init__(self, model_name: str = OPENAI_EMBEDDING_MODEL) -> None:
+    Any OpenAI-compatible endpoint works: set OPENAI_BASE_URL, e.g.
+    LM Studio local server http://localhost:1234/v1 (any api key string).
+    """
+
+    def __init__(self, model_name: str | None = None) -> None:
         from openai import OpenAI
 
-        self.model_name = model_name
-        self._backend_name = model_name
-        self.client = OpenAI()
+        self.model_name = model_name or os.getenv("OPENAI_EMBEDDING_MODEL", OPENAI_EMBEDDING_MODEL)
+        self._backend_name = self.model_name
+        self.client = OpenAI(
+            base_url=os.getenv("OPENAI_BASE_URL") or None,
+            api_key=os.getenv("OPENAI_API_KEY") or "not-needed-for-local-servers",
+        )
 
     def __call__(self, text: str) -> list[float]:
         response = self.client.embeddings.create(model=self.model_name, input=text)
